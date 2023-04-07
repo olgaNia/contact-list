@@ -6,6 +6,7 @@ const Header = (props) => {
         <div>
             <h1>{props.contactListName}</h1>
             <p>Hello {props.userName}!</p>
+            <hr/>
         </div>
     );
 };

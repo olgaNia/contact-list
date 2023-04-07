@@ -7,7 +7,7 @@ const Menu = (props) => {
             {/*{props.menu.map((el, index) =>*/}
             {/*    <li key={index}>{el}</li>*/}
             {/*)}*/}
-            <hr/>
+
             {props.menu.map((el, index) =>
                 <MenuItem
                     key={index}

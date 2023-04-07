@@ -1,9 +1,9 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import Router from "../router/Router";
 
 const flexBox = {
     display: 'flex',
+    justifyContent: 'center',
     flexWrap: 'nowrap',
     height: '100%',
     margin: '30px'
@@ -34,11 +34,12 @@ const MenuRouter = () => {
             </div>
 
             <div style={flexChild}>
-                <Link to={'/'}>Home </Link>
+                <Link to={'/'}>Create New Contact </Link>
             </div>
         </div>
+<hr/>
 
-<Router />
+
 
         </div>
     );
